@@ -1,7 +1,7 @@
 <!-- src/routes/+layout.svelte -->
 <script>
-    import '../app.css';
-  </script>
-  
-  <slot />
-  
+  export const prerender = true;
+  import "../app.css";
+</script>
+
+<slot />
